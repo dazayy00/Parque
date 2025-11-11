@@ -37,7 +37,7 @@ public class ServicioMantenimiento {
         System.out.println("CRA operario "+ operario.getNombreOperario()+ " Ha quedado libre");
     }
     
-    public void RegistrarDispositivo(Dispositivo_Operario dispositivo){
+    public void registrarDispositivo(Dispositivo_Operario dispositivo){
         dispositivoRepo.save(dispositivo);
     }
 }
